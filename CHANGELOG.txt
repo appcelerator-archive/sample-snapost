@@ -1,0 +1,6 @@
+Release 1.0
+-----------
+
+- TwitPic Integration
+- Single Account Sign-In
+- Select Image From Camera or Library
