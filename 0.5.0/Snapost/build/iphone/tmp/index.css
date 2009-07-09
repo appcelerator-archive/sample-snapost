@@ -1,0 +1,47 @@
+* {
+  font-family:"Trebuchet MS",Verdana,sans-serif;
+}
+
+body {
+  margin:0;
+  padding:0;
+  color:#fff;
+  background:#000 url('images/bg.png') no-repeat top center;
+  font-size:13px;
+}
+
+#header {
+  padding:10px;
+  background-color:#252f30;
+  opacity:0.85;
+}
+
+#profile {
+  width:175px;
+  text-align:right;
+  margin-top:10px;
+  float:right;
+  color:#92c0c3;
+}
+
+#profile strong {
+  font-size:1.1em;
+}
+
+#profile-button {
+  margin:0 0 5px 5px;
+  float:right;
+}
+
+#app {
+  text-align:center;
+}
+
+#chooser {
+  text-align:center;
+}
+
+#message {
+  height:30px;
+  margin:5px 20px 0 20px;
+}

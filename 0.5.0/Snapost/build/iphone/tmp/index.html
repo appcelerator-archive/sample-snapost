@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Snapost</title>
+	<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link href="index.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+	<!-- Currently need to hard-wire image heights to get native controls to display properly -->
+	<div id="header">
+		<div id="profile">
+			<img style="height:33px" id="profile-button" src="images/profile-button.png"></img>
+			Welcome back!<br/>
+			<strong id="username">kevinwhinnery<strong>
+		</div>
+		<img style="height:50px" src="images/snapost-small.png"></img>
+		<div style="clear:both;"></div>
+	</div>
+	<div id="app">
+		
+		<h2>Choose Picture:</h2>
+		
+		<div id="chooser">
+			<img id="albums" style="height:42px" src="images/albums-button.png"></img><br/>
+			<img style="height:1px" src="images/divider.png"></img><br/>
+			<img id="camera" style="height:46px" src="images/camera-button.png"></img><br/>
+		</div>
+		
+		<br/>
+		
+		<h2 style="margin:3px">Add A Message:</h2>
+		<h4 style="margin:0 0 3px 0">(Limit 110 Characters)</h4>
+		<div id="message"></div>
+		
+		<br/><br/>
+		
+		<img style="height:46px" src="images/post-button.png"></img>
+	</div>
+</body>
+</html>
