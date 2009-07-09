@@ -10,6 +10,10 @@ body {
   font-size:13px;
 }
 
+h1 {
+  font-style:italic;
+}
+
 #header {
   padding:10px;
   background-color:#252f30;
@@ -44,4 +48,15 @@ body {
 #message {
   height:30px;
   margin:5px 20px 0 20px;
+}
+
+#cancel {
+  text-decoration:underline;
+}
+
+#error {
+  display:none;
+  color:red;
+  margin:10px;
+  font-size:14px;
 }

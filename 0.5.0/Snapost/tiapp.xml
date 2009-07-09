@@ -9,6 +9,7 @@
 	<statusbar-style>opaque</statusbar-style>
 	<windows>
 		<window>
+			<title>Snapost</title>
 			<id>initial</id>
 			<url>index.html</url>
 			<backgroundColor>#090909</backgroundColor>
