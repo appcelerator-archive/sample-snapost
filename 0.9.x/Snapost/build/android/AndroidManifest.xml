@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.lightrail.snapost"
+      android:versionCode="1"
+      android:versionName="1"
+>
+	<uses-sdk android:minSdkVersion="3" />
+	<application
+    	android:icon="@drawable/appicon"
+      	android:label="Snapost"
+      	android:name="SnapostApplication"
+      	android:debuggable="false"
+	>
+    	<activity
+        	android:name=".SnapostActivity"
+            android:label="Snapost"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+			android:theme="@style/Theme.Titanium"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+        	android:name="org.appcelerator.titanium.TiActivity"
+        	android:configChanges="keyboardHidden|orientation"
+      	/>
+
+		<!-- TI_ACTIVITIES -->
+		
+<!--
+		<provider
+			android:authorities="com.lightrail.snapost.titanium"
+			android:name="org.appcelerator.titanium.TitaniumContentProvider"
+		/>
+-->
+		<!-- TODO: re-enable analytics when it's implemented
+		<service
+			android:name="org.appcelerator.titanium.TitaniumAnalyticsService"
+			android:exported="false"
+		/>
+		-->
+	</application>
+	
+	<!-- TI_PERMISSIONS -->
+	
+</manifest>

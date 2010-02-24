@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.lightrail.snapost</id>
+<name>Snapost</name>
+<version>1.0</version>
+<publisher>Bear94 Interactive Media</publisher>
+<url>http://bear94.com</url>
+<description>Snapost is the easiest way to share photos from your mobile device.</description>
+<copyright>2010 by Bear94 Interactive</copyright>
+<icon>appicon.png</icon>
+<persistent-wifi>false</persistent-wifi>
+<prerendered-icon>false</prerendered-icon>
+<statusbar-style>opaque</statusbar-style>
+<statusbar-hidden>false</statusbar-hidden>
+<analytics>true</analytics>
+<guid>ceb92217583a431eb0db67d76e79c2d6</guid>
+</ti:app>
