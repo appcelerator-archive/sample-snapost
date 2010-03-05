@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Snapost</title>
+	<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link href="index.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+	<!-- Sneaky pre-load images -->
+	<img style="display:none" src="images/twitter.png"></img>
+	<img style="display:none" src="images/save-button.png"></img>
+	
+	<!-- Currently need to hard-wire image heights to get native controls to display properly -->
+	<div id="header">
+		<div id="profile">
+			<img style="height:33px" id="profile-button" src="images/profile-button.png"></img>
+			Welcome back!<br/>
+			<strong id="username"><strong>
+		</div>
+		<img style="height:50px" src="images/snapost-small.png"></img>
+		<div style="clear:both;"></div>
+	</div>
+	<div id="app">
+		
+		<h2>Choose Picture:</h2>
+		
+		<div id="chooser">
+			<div id="buttons">
+				<img id="albums" style="height:42px" src="images/albums-button.png"></img><br/>
+				<img style="height:1px" src="images/divider.png"></img><br/>
+				<img id="camera" style="height:46px" src="images/camera-button.png"></img><br/>
+			</div>
+			<div id="preview" style="display:none">
+				<img style="height:75px;width:75px;" src=""></img>
+				<center><span id="cancel">&lt;&lt; Select Another</span></center>
+			</div>
+		</div>
+		
+		<br/>
+		
+		<h2 style="margin:3px">Add A Message:</h2>
+		<h4 style="margin:0 0 3px 0">(Limit 110 Characters)</h4>
+		<div id="message"></div>
+		
+		<br/><br/>
+		
+		<div id="post-control">
+			<img id="post-button" style="height:46px" src="images/post-button.png"></img>
+			<h1 id="posting" style="display:none;margin:0;">Posting...</h1>
+			<h1 id="success" style="display:none;margin:0;">Success!</h1>
+			<div id="error">
+				There was an error processing your request: <span id="error-message"></span>.
+			</div>
+		</div>
+	</div>
+</body>
+</html>

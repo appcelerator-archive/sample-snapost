@@ -14,7 +14,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		eGj7TGZwX8GdSkgiIHjYs24BW8U=
+		AdfGsJ3MeEks7xruriAHhwtxuh4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -24,9 +24,13 @@
 		<data>
 		wVNCcpSDV9yjji4o36vxhc6H+bo=
 		</data>
+		<key>default_app_logo.png</key>
+		<data>
+		k+f8myacG3lWzSKhLEsG/PlqmJ8=
+		</data>
 		<key>dependencies.map</key>
 		<data>
-		aw/WyevP8vHDFmxTHhEyLQEQNso=
+		Uz1Wt8B77DEUyCZL8KWZ/Xmt+qE=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -87,6 +91,14 @@
 		<key>modules/ui/images/photoDefault.png</key>
 		<data>
 		EchGGgxzD1fgukg7CWpamBV4TFU=
+		</data>
+		<key>snapost_icon512.png</key>
+		<data>
+		LkY8GDn1GUKBW7vHOXNcutNeUII=
+		</data>
+		<key>snapost_icon57.png</key>
+		<data>
+		jAv43rP1qt9J4gDSTzsJUf0mDzI=
 		</data>
 		<key>warp.caf</key>
 		<data>

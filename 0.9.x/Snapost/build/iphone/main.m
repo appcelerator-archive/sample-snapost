@@ -9,14 +9,14 @@
 
 NSString * const TI_APPLICATION_DEPLOYTYPE = @"development";
 NSString * const TI_APPLICATION_ID = @"com.lightrail.snapost";
-NSString * const TI_APPLICATION_PUBLISHER = @"Bear94 Interactive Media";
-NSString * const TI_APPLICATION_URL = @"http://bear94.com";
+NSString * const TI_APPLICATION_PUBLISHER = @"Kevin Whinnery for Appcelerator Inc.";
+NSString * const TI_APPLICATION_URL = @"http://appcelerator.com";
 NSString * const TI_APPLICATION_NAME = @"Snapost";
-NSString * const TI_APPLICATION_VERSION = @"1.0";
+NSString * const TI_APPLICATION_VERSION = @"1.1";
 NSString * const TI_APPLICATION_DESCRIPTION = @"Snapost is the easiest way to share photos from your mobile device.";
-NSString * const TI_APPLICATION_COPYRIGHT = @"2010 by Bear94 Interactive";
+NSString * const TI_APPLICATION_COPYRIGHT = @"2010 by Appcelerator";
 NSString * const TI_APPLICATION_GUID = @"ceb92217583a431eb0db67d76e79c2d6";
-BOOL TI_APPLICATION_ANALYTICS = true;
+BOOL const TI_APPLICATION_ANALYTICS = true;
 
 int main(int argc, char *argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
