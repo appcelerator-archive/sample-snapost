@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.lightrail.snapost</id>
+<name>Snapost</name>
+<version>1.1.1</version>
+<publisher>Kevin Whinnery for Appcelerator Inc.</publisher>
+<url>http://appcelerator.com</url>
+<description>Snapost is the easiest way to share photos from your mobile device.</description>
+<copyright>2010 by Appcelerator</copyright>
+<icon>snapost_icon57.png</icon>
+<persistent-wifi>false</persistent-wifi>
+<prerendered-icon>false</prerendered-icon>
+<statusbar-style>opaque</statusbar-style>
+<statusbar-hidden>false</statusbar-hidden>
+<analytics>true</analytics>
+<guid>ceb92217583a431eb0db67d76e79c2d6</guid>
+</ti:app>

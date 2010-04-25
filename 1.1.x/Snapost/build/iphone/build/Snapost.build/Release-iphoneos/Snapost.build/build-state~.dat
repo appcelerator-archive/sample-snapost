@@ -1,0 +1,881 @@
+TSnapost
+v7
+r0
+t288727720.027274
+cCheck dependencies
+cCpResource build/Release-iphoneos/Snapost.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist Info.plist
+cPhaseScriptExecution "Run Script" /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+cCompileXIB /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/MainWindow.xib
+cCopyPNGFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png Resources/Default.png
+cCopyPlistFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Entitlements.plist Resources/Entitlements.plist
+cProcessPCH /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch.gch Snapost_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/main.o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/ApplicationRouting.o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost normal armv6
+cGenerateDSYMFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app.dSYM /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost
+cProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/277648E7-A106-427D-A6D9-7E9EB52EA867.mobileprovision" /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/embedded.mobileprovision
+cTouch /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+cProcessProductPackaging /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Entitlements.plist /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent
+cCodeSign /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B2FA6BF0000000000000110
+t1261414079
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004B2B554B000000000001AD10
+t1261131083
+s109840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004B2B55F0000000000009D700
+t1261131248
+s644864
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004B2B64F4000000000017AB40
+t1261135092
+s1551168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004B2B538900000000002E0B30
+t1261130633
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004B2B548B0000000000290670
+t1261130891
+s2688624
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004B2B61E30000000000084510
+t1261134307
+s541968
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004B2B656100000000001CD6E0
+t1261135201
+s1890016
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004B2B664D0000000000178100
+t1261135437
+s1540352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004B2B655100000000000C32C0
+t1261135185
+s799424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004B2B553C0000000000026020
+t1261131068
+s155680
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004B2B567E000000000003C1A0
+t1261131390
+s246176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004B2B532F00000000000D7460
+t1261130543
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libicucore.dylib
+c000000004B2B511C0000000000C0E640
+t1261130012
+s12641856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libsqlite3.dylib
+c000000004B2B5093000000000010BF50
+t1261129875
+s1097552
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libxml2.dylib
+c000000004B2B53D500000000002FB320
+t1261130709
+s3126048
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libz.dylib
+c000000004B2B499500000000000335C0
+t1261128085
+s210368
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ADE5FA10000000000CF0BE0
+t1256087457
+s13568992
+
+N/Users/kevin/Library/MobileDevice/Provisioning Profiles/277648E7-A106-427D-A6D9-7E9EB52EA867.mobileprovision
+c000000004AF3497B0000000000001C01
+t1257458043
+s7169
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.h
+c000000004B856B1F000000000000014D
+t1267034911
+s333
+i<Foundation/Foundation.h>
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m
+c000000004B856B1F0000000000004D3C
+t1267034911
+s19772
+i<Foundation/Foundation.h>
+i"ApplicationRouting.h"
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Default.png
+c000000004B856B20000000000001AE6B
+t1267034912
+s110187
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Entitlements.plist
+c000000004B736FEE00000000000000E1
+t1265856494
+s225
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/MainWindow.xib
+c000000004B736FED0000000000003AF8
+t1265856493
+s15096
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/libTiCore.a
+c000000004B7373D1000000000C68DFE4
+t1265857489
+s208199652
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/libTitanium.a
+c000000004B856B1F00000000006D67C8
+t1267034911
+s7169992
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Snapost_Prefix.pch
+c000000004B736FEE0000000000000086
+t1265856494
+s134
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+t1267034920
+s612
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app.dSYM
+t1267034919
+s102
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png
+t1267034916
+s82927
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Entitlements.plist
+t1267034915
+s62
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist
+t1267034913
+s720
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/MainWindow.nib
+t1267034915
+s1336
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/PkgInfo
+t1267034913
+s8
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ResourceRules.plist
+t1267034913
+s150
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost
+t1267034917
+s2204796
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/embedded.mobileprovision
+t1267034919
+s7169
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/ApplicationRouting.o
+t1267034917
+s27472
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/Snapost.LinkFileList
+c000000004B856B21000000000000011E
+t1267034913
+s286
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/main.o
+t1267034917
+s8740
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+c000000004B856B21000000000000028F
+t1267034913
+s655
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent
+t1267034919
+s319
+
+N/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m
+c000000004B856B2000000000000005CF
+t1267034912
+s1487
+i<UIKit/UIKit.h>
+
+N/var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch.gch
+t1267034917
+s7700664
+
+NInfo.plist
+c000000004B856B2000000000000003D5
+t1267034912
+s981
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288727713#288727713#0(0"0(0#1#0"6144960782880687104#0"0#
+
+CCodeSign /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+s288727719.786262
+e288727720.027082
+r1
+xCodeSign
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+lSLF07#2@43"CodeSign build/Release-iphoneos/Snapost.app288727719#288727720#0(0"0(0#0#91"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app4301200840#724"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Distribution: LightRail Systems, LLC" --resource-rules=/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ResourceRules.plist --entitlements /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app0#
+
+CCompileC build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/ApplicationRouting.o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288727717.093748
+e288727717.240957
+r1
+xCompileC
+xbuild/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/ApplicationRouting.o
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m288727717#288727717#0(0"0(0#0#85"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m4301200840#2021"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -DDEPLOYTYPE=production -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-generated-files.hmap -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-own-target-headers.hmap -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-all-target-headers.hmap -iquote /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-project-headers.hmap -F/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/include -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources/armv6 -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources -include /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch -c /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Classes/ApplicationRouting.m -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/ApplicationRouting.o0#
+
+CCompileC build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/main.o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288727717.092907
+e288727717.240741
+r1
+xCompileC
+xbuild/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/main.o
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m288727717#288727717#0(0"0(0#0#63"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m4301200840#1985"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -DDEPLOYTYPE=production -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-generated-files.hmap -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-own-target-headers.hmap -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-all-target-headers.hmap -iquote /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-project-headers.hmap -F/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/include -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources/armv6 -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources -include /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch -c /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/main.m -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/MainWindow.xib
+s288727715.599727
+e288727715.931741
+r1
+xCompileXIB
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/MainWindow.xib
+lSLF07#2@35"CompileXIB Resources/MainWindow.xib288727715#288727715#0(0"0(0#0#81"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/MainWindow.xib3420534740110815232#534"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/MainWindow.nib /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/MainWindow.xib0#
+
+CCopyPNGFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png Resources/Default.png
+s288727715.600291
+e288727716.408226
+r1
+xCopyPNGFile
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png
+xResources/Default.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/Snapost.app/Default.png Resources/Default.png288727715#288727716#0(0"0(0#0#78"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Default.png4301200840#628"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Default.png /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png0#
+
+CCopyPlistFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Entitlements.plist Resources/Entitlements.plist
+s288727715.932056
+e288727715.972103
+r1
+xCopyPlistFile
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Entitlements.plist
+xResources/Entitlements.plist
+lSLF07#2@33"Copy Resources/Entitlements.plist288727715#288727715#0(0"0(0#0#85"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Entitlements.plist4301200840#427"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Entitlements.plist --outdir /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app0#
+
+CCpResource build/Release-iphoneos/Snapost.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s288727713.367137
+e288727713.376378
+r1
+xCpResource
+xbuild/Release-iphoneos/Snapost.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist288727713#288727713#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist8028903794874265600#541"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app0#
+
+CGenerateDSYMFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app.dSYM /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost
+s288727717.633320
+e288727719.775394
+r1
+xGenerateDSYMFile
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app.dSYM
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost
+lSLF07#2@99"GenerateDSYMFile build/Release-iphoneos/Snapost.app.dSYM build/Release-iphoneos/Snapost.app/Snapost288727717#288727719#0(0"0(0#0#99"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost4301200840#420"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app.dSYM0#
+
+CLd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost normal armv6
+s288727717.241182
+e288727717.633144
+r1
+xLd
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost
+xnormal
+xarmv6
+lSLF07#2@104"Link /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost288727717#288727717#0(0"0(0#0#0"4301200840#1475"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos -L/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone -LResources -F/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos -filelist /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/Snapost.LinkFileList -mmacosx-version-min=10.5 -dead_strip -framework Foundation -framework UIKit -ObjC -lstdc++ -miphoneos-version-min=3.1.3 -framework SystemConfiguration -framework AVFoundation -framework CoreLocation -lz -framework AudioToolbox -framework Foundation -framework UIKit -framework MediaPlayer -framework CoreGraphics -lTitanium -lsqlite3 -framework MessageUI -framework OpenGLES -framework QuartzCore -framework MapKit -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework MobileCoreServices -lTiCore -licucore -lxml2 -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Snapost0#
+
+CPhaseScriptExecution "Run Script" /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+s288727713.382541
+e288727715.598655
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+oiphoneos-optimize: Converting plists to binary in /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/
+oiphoneos-optimize: Converted to binary plist: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist
+oiphoneos-optimize: Converted to binary plist: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ResourceRules.plist
+oiphoneos-optimize: Optimizing PNGs in /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon.png
+o   Total length of data found in IDAT chunks    =      506
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      634
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon-pngcrush.png
+o     (25.30% IDAT increase)
+o     (3.60% filesize increase)
+o
+o   CPU time used = 0.003 seconds (decoding 0.000,
+o          encoding 0.002, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png
+o   Total length of data found in IDAT chunks    =   109191
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    82109
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default-pngcrush.png
+o     (24.80% IDAT reduction)
+o     (24.74% filesize reduction)
+o
+o   CPU time used = 0.750 seconds (decoding 0.012,
+o          encoding 0.724, other 0.015 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo.png
+o   Total length of data found in IDAT chunks    =      396
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      496
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo-pngcrush.png
+o     (25.25% IDAT increase)
+o     (23.67% filesize increase)
+o
+o   CPU time used = 0.004 seconds (decoding 0.000,
+o          encoding 0.002, other 0.002 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos.png
+o   Total length of data found in IDAT chunks    =       83
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =       62
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos-pngcrush.png
+o     (25.30% IDAT reduction)
+o     (2.82% filesize reduction)
+o
+o   CPU time used = 0.001 seconds (decoding 0.000,
+o          encoding 0.000, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll.png
+o   Total length of data found in IDAT chunks    =      217
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      200
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll-pngcrush.png
+o     (7.83% IDAT reduction)
+o     (0.32% filesize reduction)
+o
+o   CPU time used = 0.002 seconds (decoding 0.000,
+o          encoding 0.000, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button.png
+o   Total length of data found in IDAT chunks    =     1830
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1863
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button-pngcrush.png
+o     (1.80% IDAT increase)
+o     (0.92% filesize increase)
+o
+o   CPU time used = 0.009 seconds (decoding 0.001,
+o          encoding 0.006, other 0.002 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg.png
+o   Total length of data found in IDAT chunks    =    47057
+o   Adding an opaque alpha channel.
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    54085
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg-pngcrush.png
+o     (14.94% IDAT increase)
+o     (13.93% filesize increase)
+o
+o   CPU time used = 0.561 seconds (decoding 0.008,
+o          encoding 0.543, other 0.010 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button.png
+o   Total length of data found in IDAT chunks    =     1555
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1707
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button-pngcrush.png
+o     (9.77% IDAT increase)
+o     (3.32% filesize increase)
+o
+o   CPU time used = 0.008 seconds (decoding 0.001,
+o          encoding 0.006, other 0.002 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera.png
+o   Total length of data found in IDAT chunks    =      252
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      222
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-pngcrush.png
+o     (11.90% IDAT reduction)
+o     (4.05% filesize reduction)
+o
+o   CPU time used = 0.001 seconds (decoding 0.000,
+o          encoding 0.000, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider.png
+o   Total length of data found in IDAT chunks    =       21
+o   Adding an opaque alpha channel.
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =       15
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider-pngcrush.png
+o     (28.57% IDAT reduction)
+o     (0.28% filesize increase)
+o
+o   CPU time used = 0.001 seconds (decoding 0.000,
+o          encoding 0.000, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button.png
+o   Total length of data found in IDAT chunks    =     2855
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3322
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button-pngcrush.png
+o     (16.36% IDAT increase)
+o     (7.60% filesize increase)
+o
+o   CPU time used = 0.010 seconds (decoding 0.000,
+o          encoding 0.007, other 0.003 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button.png
+o   Total length of data found in IDAT chunks    =     1108
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1437
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button-pngcrush.png
+o     (29.69% IDAT increase)
+o     (7.49% filesize increase)
+o
+o   CPU time used = 0.004 seconds (decoding 0.000,
+o          encoding 0.001, other 0.002 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button.png
+o   Total length of data found in IDAT chunks    =     2561
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     2908
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button-pngcrush.png
+o     (13.55% IDAT increase)
+o     (5.99% filesize increase)
+o
+o   CPU time used = 0.010 seconds (decoding 0.001,
+o          encoding 0.007, other 0.003 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small.png
+o   Total length of data found in IDAT chunks    =     1408
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1925
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small-pngcrush.png
+o     (36.72% IDAT increase)
+o     (10.86% filesize increase)
+o
+o   CPU time used = 0.008 seconds (decoding 0.000,
+o          encoding 0.007, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter.png
+o   Total length of data found in IDAT chunks    =     4604
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5190
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter-pngcrush.png
+o     (12.73% IDAT increase)
+o     (7.43% filesize increase)
+o
+o   CPU time used = 0.017 seconds (decoding 0.001,
+o          encoding 0.014, other 0.003 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault.png
+o   Total length of data found in IDAT chunks    =     3933
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault-pngcrush.png
+o     (51.84% IDAT increase)
+o     (51.03% filesize increase)
+o
+o   CPU time used = 0.023 seconds (decoding 0.003,
+o          encoding 0.014, other 0.006 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault.png
+lSLF07#2@36"Run custom shell script 'Run Script'288727713#288727715#0(24796"iphoneos-optimize: Converting plists to binary in /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/iphoneos-optimize: Converted to binary plist: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plistiphoneos-optimize: Converted to binary plist: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ResourceRules.plistiphoneos-optimize: Optimizing PNGs in /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon.png   Total length of data found in IDAT chunks    =      506Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =      634   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon-pngcrush.png     (25.30% IDAT increase)     (3.60% filesize increase)   CPU time used = 0.003 seconds (decoding 0.000,          encoding 0.002, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png   Total length of data found in IDAT chunks    =   109191   IDAT length with method 120 (fm 1 zl 9 zs 1) =    82109   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default-pngcrush.png     (24.80% IDAT reduction)     (24.74% filesize reduction)   CPU time used = 0.750 seconds (decoding 0.012,          encoding 0.724, other 0.015 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo.png   Total length of data found in IDAT chunks    =      396   IDAT length with method 120 (fm 1 zl 9 zs 1) =      496   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo-pngcrush.png     (25.25% IDAT increase)     (23.67% filesize increase)   CPU time used = 0.004 seconds (decoding 0.000,          encoding 0.002, other 0.002 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos.png   Total length of data found in IDAT chunks    =       83   IDAT length with method 120 (fm 1 zl 9 zs 1) =       62   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos-pngcrush.png     (25.30% IDAT reduction)     (2.82% filesize reduction)   CPU time used = 0.001 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll.png   Total length of data found in IDAT chunks    =      217   IDAT length with method 120 (fm 1 zl 9 zs 1) =      200   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll-pngcrush.png     (7.83% IDAT reduction)     (0.32% filesize reduction)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button.png   Total length of data found in IDAT chunks    =     1830Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1863   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button-pngcrush.png     (1.80% IDAT increase)     (0.92% filesize increase)   CPU time used = 0.009 seconds (decoding 0.001,          encoding 0.006, other 0.002 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg.png   Total length of data found in IDAT chunks    =    47057   Adding an opaque alpha channel.Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =    54085   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg-pngcrush.png     (14.94% IDAT increase)     (13.93% filesize increase)   CPU time used = 0.561 seconds (decoding 0.008,          encoding 0.543, other 0.010 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button.png   Total length of data found in IDAT chunks    =     1555Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1707   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button-pngcrush.png     (9.77% IDAT increase)     (3.32% filesize increase)   CPU time used = 0.008 seconds (decoding 0.001,          encoding 0.006, other 0.002 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera.png   Total length of data found in IDAT chunks    =      252   IDAT length with method 120 (fm 1 zl 9 zs 1) =      222   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-pngcrush.png     (11.90% IDAT reduction)     (4.05% filesize reduction)   CPU time used = 0.001 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider.png   Total length of data found in IDAT chunks    =       21   Adding an opaque alpha channel.Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =       15   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider-pngcrush.png     (28.57% IDAT reduction)     (0.28% filesize increase)   CPU time used = 0.001 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button.png   Total length of data found in IDAT chunks    =     2855Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3322   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button-pngcrush.png     (16.36% IDAT increase)     (7.60% filesize increase)   CPU time used = 0.010 seconds (decoding 0.000,          encoding 0.007, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button.png   Total length of data found in IDAT chunks    =     1108Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1437   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button-pngcrush.png     (29.69% IDAT increase)     (7.49% filesize increase)   CPU time used = 0.004 seconds (decoding 0.000,          encoding 0.001, other 0.002 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button.png   Total length of data found in IDAT chunks    =     2561Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     2908   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button-pngcrush.png     (13.55% IDAT increase)     (5.99% filesize increase)   CPU time used = 0.010 seconds (decoding 0.001,          encoding 0.007, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small.png   Total length of data found in IDAT chunks    =     1408Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1925   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small-pngcrush.png     (36.72% IDAT increase)     (10.86% filesize increase)   CPU time used = 0.008 seconds (decoding 0.000,          encoding 0.007, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter.png   Total length of data found in IDAT chunks    =     4604Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5190   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter-pngcrush.png     (12.73% IDAT increase)     (7.43% filesize increase)   CPU time used = 0.017 seconds (decoding 0.001,          encoding 0.014, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault.png   Total length of data found in IDAT chunks    =     3933   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault-pngcrush.png     (51.84% IDAT increase)     (51.03% filesize increase)   CPU time used = 0.023 seconds (decoding 0.003,          encoding 0.014, other 0.006 seconds)iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault.png400(13@143"iphoneos-optimize: Converting plists to binary in /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/288727713#0#143#0(1@0"0(13@149"iphoneos-optimize: Converted to binary plist: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist288727713#143#149#0(1@0"0(13@158"iphoneos-optimize: Converted to binary plist: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ResourceRules.plist288727713#292#158#0(1@0"0(13@131"iphoneos-optimize: Optimizing PNGs in /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/288727713#450#131#0(1@0"0(13@18" | pngcrush 1.6.4288727713#582#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727713#600#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727713#657#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727713#700#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727713#767#63#0(1@0"0(13@23" | payment of any fee.288727713#830#23#0(1@0"0(13@31" | Executable name is pngcrush288727713#853#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727713#884#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727713#934#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727713#1002#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727713#1060#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727713#1107#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727713#1167#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727713#1230#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727713#1269#77#0(1@0"0(13@121"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon.png288727713#1347#121#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      506288727713#1468#59#0(1@0"0(13@25"Handling unknown chunk 0288727713#1527#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      634288727713#1552#59#0(1@0"0(13@164"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon-pngcrush.png288727713#1611#164#0(1@0"0(13@28"     (25.30% IDAT increase)288727713#1775#28#0(1@0"0(13@31"     (3.60% filesize increase)288727713#1803#31#0(1@0"0(13@50"   CPU time used = 0.003 seconds (decoding 0.000,288727713#1835#50#0(1@0"0(13@47"          encoding 0.002, other 0.001 seconds)288727713#1885#47#0(1@0"0(13@138"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/appicon.png288727713#1933#138#0(1@0"0(13@18" | pngcrush 1.6.4288727713#2072#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727713#2090#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727713#2147#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727713#2190#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727713#2257#63#0(1@0"0(13@23" | payment of any fee.288727713#2320#23#0(1@0"0(13@31" | Executable name is pngcrush288727713#2343#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727713#2374#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727713#2424#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727713#2492#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727713#2550#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727713#2597#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727713#2657#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727713#2720#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727713#2759#77#0(1@0"0(13@121"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png288727713#2837#121#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =   109191288727713#2958#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    82109288727714#3017#59#0(1@0"0(13@164"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default-pngcrush.png288727714#3076#164#0(1@0"0(13@29"     (24.80% IDAT reduction)288727714#3240#29#0(1@0"0(13@33"     (24.74% filesize reduction)288727714#3269#33#0(1@0"0(13@50"   CPU time used = 0.750 seconds (decoding 0.012,288727714#3303#50#0(1@0"0(13@47"          encoding 0.724, other 0.015 seconds)288727714#3353#47#0(1@0"0(13@138"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Default.png288727714#3401#138#0(1@0"0(13@18" | pngcrush 1.6.4288727714#3540#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727714#3558#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727714#3615#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727714#3658#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727714#3725#63#0(1@0"0(13@23" | payment of any fee.288727714#3788#23#0(1@0"0(13@31" | Executable name is pngcrush288727714#3811#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727714#3842#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727714#3892#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727714#3960#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727714#4018#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727714#4065#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727714#4125#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727714#4188#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727714#4227#77#0(1@0"0(13@128"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo.png288727714#4305#128#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      396288727714#4433#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      496288727714#4492#59#0(1@0"0(13@171"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo-pngcrush.png288727714#4551#171#0(1@0"0(13@28"     (25.25% IDAT increase)288727714#4722#28#0(1@0"0(13@32"     (23.67% filesize increase)288727714#4750#32#0(1@0"0(13@50"   CPU time used = 0.004 seconds (decoding 0.000,288727714#4783#50#0(1@0"0(13@47"          encoding 0.002, other 0.002 seconds)288727714#4833#47#0(1@0"0(13@145"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/02-redo.png288727714#4881#145#0(1@0"0(13@18" | pngcrush 1.6.4288727714#5027#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727714#5045#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727714#5102#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727714#5145#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727714#5212#63#0(1@0"0(13@23" | payment of any fee.288727714#5275#23#0(1@0"0(13@31" | Executable name is pngcrush288727714#5298#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727714#5329#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727714#5379#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727714#5447#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727714#5505#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727714#5552#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727714#5612#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727714#5675#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727714#5714#77#0(1@0"0(13@130"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos.png288727714#5792#130#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =       83288727714#5922#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =       62288727714#5981#59#0(1@0"0(13@173"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos-pngcrush.png288727714#6040#173#0(1@0"0(13@29"     (25.30% IDAT reduction)288727714#6213#29#0(1@0"0(13@32"     (2.82% filesize reduction)288727714#6242#32#0(1@0"0(13@50"   CPU time used = 0.001 seconds (decoding 0.000,288727714#6275#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)288727714#6325#47#0(1@0"0(13@147"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/42-photos.png288727714#6373#147#0(1@0"0(13@18" | pngcrush 1.6.4288727714#6521#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727714#6539#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727714#6596#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727714#6639#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727714#6706#63#0(1@0"0(13@23" | payment of any fee.288727714#6769#23#0(1@0"0(13@31" | Executable name is pngcrush288727714#6792#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727714#6823#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727714#6873#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727714#6941#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727714#6999#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727714#7046#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727714#7106#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727714#7169#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727714#7208#77#0(1@0"0(13@133"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll.png288727714#7286#133#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      217288727714#7419#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      200288727714#7478#59#0(1@0"0(13@176"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll-pngcrush.png288727714#7537#176#0(1@0"0(13@28"     (7.83% IDAT reduction)288727714#7713#28#0(1@0"0(13@32"     (0.32% filesize reduction)288727714#7741#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,288727714#7774#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)288727714#7824#47#0(1@0"0(13@150"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/43-film-roll.png288727714#7872#150#0(1@0"0(13@18" | pngcrush 1.6.4288727714#8023#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727714#8041#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727714#8098#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727714#8141#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727714#8208#63#0(1@0"0(13@23" | payment of any fee.288727714#8271#23#0(1@0"0(13@31" | Executable name is pngcrush288727714#8294#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727714#8325#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727714#8375#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727714#8443#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727714#8501#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727714#8548#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727714#8608#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727714#8671#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727714#8710#77#0(1@0"0(13@134"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button.png288727714#8788#134#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1830288727714#8922#59#0(1@0"0(13@25"Handling unknown chunk 0288727714#8981#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1863288727714#9006#59#0(1@0"0(13@177"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button-pngcrush.png288727714#9065#177#0(1@0"0(13@27"     (1.80% IDAT increase)288727714#9242#27#0(1@0"0(13@31"     (0.92% filesize increase)288727714#9269#31#0(1@0"0(13@50"   CPU time used = 0.009 seconds (decoding 0.001,288727714#9301#50#0(1@0"0(13@47"          encoding 0.006, other 0.002 seconds)288727714#9351#47#0(1@0"0(13@151"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/albums-button.png288727714#9399#151#0(1@0"0(13@18" | pngcrush 1.6.4288727714#9551#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727714#9569#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727714#9626#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727714#9669#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727714#9736#63#0(1@0"0(13@23" | payment of any fee.288727714#9799#23#0(1@0"0(13@31" | Executable name is pngcrush288727714#9822#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727714#9853#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727714#9903#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727714#9971#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727714#10029#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727714#10076#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727714#10136#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727714#10199#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727714#10238#77#0(1@0"0(13@123"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg.png288727714#10316#123#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    47057288727714#10439#59#0(1@0"0(13@35"   Adding an opaque alpha channel.288727715#10498#35#0(1@0"0(13@25"Handling unknown chunk 0288727715#10533#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    54085288727715#10558#59#0(1@0"0(13@166"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg-pngcrush.png288727715#10617#166#0(1@0"0(13@28"     (14.94% IDAT increase)288727715#10783#28#0(1@0"0(13@32"     (13.93% filesize increase)288727715#10811#32#0(1@0"0(13@50"   CPU time used = 0.561 seconds (decoding 0.008,288727715#10844#50#0(1@0"0(13@47"          encoding 0.543, other 0.010 seconds)288727715#10894#47#0(1@0"0(13@140"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/bg.png288727715#10942#140#0(1@0"0(13@18" | pngcrush 1.6.4288727715#11083#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#11101#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#11158#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#11201#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#11268#63#0(1@0"0(13@23" | payment of any fee.288727715#11331#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#11354#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#11385#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#11435#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#11503#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#11561#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#11608#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#11668#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#11731#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#11770#77#0(1@0"0(13@134"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button.png288727715#11848#134#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1555288727715#11982#59#0(1@0"0(13@25"Handling unknown chunk 0288727715#12041#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1707288727715#12066#59#0(1@0"0(13@177"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button-pngcrush.png288727715#12125#177#0(1@0"0(13@27"     (9.77% IDAT increase)288727715#12302#27#0(1@0"0(13@31"     (3.32% filesize increase)288727715#12329#31#0(1@0"0(13@50"   CPU time used = 0.008 seconds (decoding 0.001,288727715#12361#50#0(1@0"0(13@47"          encoding 0.006, other 0.002 seconds)288727715#12411#47#0(1@0"0(13@151"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-button.png288727715#12459#151#0(1@0"0(13@18" | pngcrush 1.6.4288727715#12611#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#12629#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#12686#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#12729#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#12796#63#0(1@0"0(13@23" | payment of any fee.288727715#12859#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#12882#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#12913#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#12963#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#13031#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#13089#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#13136#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#13196#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#13259#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#13298#77#0(1@0"0(13@127"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera.png288727715#13376#127#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      252288727715#13503#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      222288727715#13562#59#0(1@0"0(13@170"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera-pngcrush.png288727715#13621#170#0(1@0"0(13@29"     (11.90% IDAT reduction)288727715#13791#29#0(1@0"0(13@32"     (4.05% filesize reduction)288727715#13820#32#0(1@0"0(13@50"   CPU time used = 0.001 seconds (decoding 0.000,288727715#13853#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)288727715#13903#47#0(1@0"0(13@144"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/camera.png288727715#13951#144#0(1@0"0(13@18" | pngcrush 1.6.4288727715#14096#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#14114#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#14171#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#14214#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#14281#63#0(1@0"0(13@23" | payment of any fee.288727715#14344#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#14367#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#14398#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#14448#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#14516#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#14574#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#14621#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#14681#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#14744#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#14783#77#0(1@0"0(13@128"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider.png288727715#14861#128#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =       21288727715#14989#59#0(1@0"0(13@35"   Adding an opaque alpha channel.288727715#15048#35#0(1@0"0(13@25"Handling unknown chunk 0288727715#15083#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =       15288727715#15108#59#0(1@0"0(13@171"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider-pngcrush.png288727715#15167#171#0(1@0"0(13@29"     (28.57% IDAT reduction)288727715#15338#29#0(1@0"0(13@31"     (0.28% filesize increase)288727715#15367#31#0(1@0"0(13@50"   CPU time used = 0.001 seconds (decoding 0.000,288727715#15399#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)288727715#15449#47#0(1@0"0(13@145"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/divider.png288727715#15497#145#0(1@0"0(13@18" | pngcrush 1.6.4288727715#15643#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#15661#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#15718#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#15761#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#15828#63#0(1@0"0(13@23" | payment of any fee.288727715#15891#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#15914#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#15945#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#15995#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#16063#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#16121#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#16168#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#16228#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#16291#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#16330#77#0(1@0"0(13@132"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button.png288727715#16408#132#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     2855288727715#16540#59#0(1@0"0(13@25"Handling unknown chunk 0288727715#16599#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3322288727715#16624#59#0(1@0"0(13@175"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button-pngcrush.png288727715#16683#175#0(1@0"0(13@28"     (16.36% IDAT increase)288727715#16858#28#0(1@0"0(13@31"     (7.60% filesize increase)288727715#16886#31#0(1@0"0(13@50"   CPU time used = 0.010 seconds (decoding 0.000,288727715#16918#50#0(1@0"0(13@47"          encoding 0.007, other 0.003 seconds)288727715#16968#47#0(1@0"0(13@149"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/post-button.png288727715#17016#149#0(1@0"0(13@18" | pngcrush 1.6.4288727715#17166#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#17184#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#17241#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#17284#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#17351#63#0(1@0"0(13@23" | payment of any fee.288727715#17414#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#17437#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#17468#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#17518#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#17586#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#17644#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#17691#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#17751#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#17814#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#17853#77#0(1@0"0(13@135"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button.png288727715#17931#135#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1108288727715#18066#59#0(1@0"0(13@25"Handling unknown chunk 0288727715#18125#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1437288727715#18150#59#0(1@0"0(13@178"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button-pngcrush.png288727715#18209#178#0(1@0"0(13@28"     (29.69% IDAT increase)288727715#18387#28#0(1@0"0(13@31"     (7.49% filesize increase)288727715#18415#31#0(1@0"0(13@50"   CPU time used = 0.004 seconds (decoding 0.000,288727715#18447#50#0(1@0"0(13@47"          encoding 0.001, other 0.002 seconds)288727715#18497#47#0(1@0"0(13@152"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/profile-button.png288727715#18545#152#0(1@0"0(13@18" | pngcrush 1.6.4288727715#18698#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#18716#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#18773#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#18816#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#18883#63#0(1@0"0(13@23" | payment of any fee.288727715#18946#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#18969#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#19000#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#19050#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#19118#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#19176#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#19223#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#19283#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#19346#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#19385#77#0(1@0"0(13@132"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button.png288727715#19463#132#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     2561288727715#19595#59#0(1@0"0(13@25"Handling unknown chunk 0288727715#19654#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     2908288727715#19679#59#0(1@0"0(13@175"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button-pngcrush.png288727715#19738#175#0(1@0"0(13@28"     (13.55% IDAT increase)288727715#19913#28#0(1@0"0(13@31"     (5.99% filesize increase)288727715#19941#31#0(1@0"0(13@50"   CPU time used = 0.010 seconds (decoding 0.001,288727715#19973#50#0(1@0"0(13@47"          encoding 0.007, other 0.003 seconds)288727715#20023#47#0(1@0"0(13@149"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/save-button.png288727715#20071#149#0(1@0"0(13@18" | pngcrush 1.6.4288727715#20221#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#20239#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#20296#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#20339#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#20406#63#0(1@0"0(13@23" | payment of any fee.288727715#20469#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#20492#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#20523#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#20573#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#20641#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#20699#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#20746#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#20806#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#20869#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#20908#77#0(1@0"0(13@134"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small.png288727715#20986#134#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1408288727715#21120#59#0(1@0"0(13@25"Handling unknown chunk 0288727715#21179#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1925288727715#21204#59#0(1@0"0(13@177"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small-pngcrush.png288727715#21263#177#0(1@0"0(13@28"     (36.72% IDAT increase)288727715#21440#28#0(1@0"0(13@32"     (10.86% filesize increase)288727715#21468#32#0(1@0"0(13@50"   CPU time used = 0.008 seconds (decoding 0.000,288727715#21501#50#0(1@0"0(13@47"          encoding 0.007, other 0.001 seconds)288727715#21551#47#0(1@0"0(13@151"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/snapost-small.png288727715#21599#151#0(1@0"0(13@18" | pngcrush 1.6.4288727715#21751#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#21769#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#21826#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#21869#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#21936#63#0(1@0"0(13@23" | payment of any fee.288727715#21999#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#22022#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#22053#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#22103#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#22171#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#22229#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#22276#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#22336#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#22399#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#22438#77#0(1@0"0(13@128"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter.png288727715#22516#128#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     4604288727715#22644#59#0(1@0"0(13@25"Handling unknown chunk 0288727715#22703#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5190288727715#22728#59#0(1@0"0(13@171"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter-pngcrush.png288727715#22787#171#0(1@0"0(13@28"     (12.73% IDAT increase)288727715#22958#28#0(1@0"0(13@31"     (7.43% filesize increase)288727715#22986#31#0(1@0"0(13@50"   CPU time used = 0.017 seconds (decoding 0.001,288727715#23018#50#0(1@0"0(13@47"          encoding 0.014, other 0.003 seconds)288727715#23068#47#0(1@0"0(13@145"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/images/twitter.png288727715#23116#145#0(1@0"0(13@18" | pngcrush 1.6.4288727715#23262#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson288727715#23280#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs288727715#23337#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably288727715#23380#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without288727715#23447#63#0(1@0"0(13@23" | payment of any fee.288727715#23510#23#0(1@0"0(13@31" | Executable name is pngcrush288727715#23533#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is288727715#23564#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)288727715#23614#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,288727715#23682#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,288727715#23740#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,288727715#23787#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),288727715#23847#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.288727715#23910#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).288727715#23949#77#0(1@0"0(13@144"   Recompressing /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault.png288727715#24027#144#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3933288727715#24171#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972288727715#24230#59#0(1@0"0(13@187"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault-pngcrush.png288727715#24289#187#0(1@0"0(13@28"     (51.84% IDAT increase)288727715#24476#28#0(1@0"0(13@32"     (51.03% filesize increase)288727715#24504#32#0(1@0"0(13@50"   CPU time used = 0.023 seconds (decoding 0.003,288727715#24537#50#0(1@0"0(13@47"          encoding 0.014, other 0.006 seconds)288727715#24587#47#0(1@0"0(13@161"iphoneos-optimize: Optimized PNG: /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/modules/ui/images/photoDefault.png288727715#24635#161#0(1@0"0(0#0#0"4301200840#18007"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv6    setenv ARCHS_STANDARD_32_64_BIT armv6    setenv ARCHS_STANDARD_32_BIT armv6    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv6 armv7"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build    setenv BUILD_ROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos    setenv CACHE_ROOT /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504    setenv CCHROOT /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_ENTITLEMENTS Resources/Entitlements.plist    setenv CODE_SIGN_IDENTITY "iPhone Distribution: LightRail Systems, LLC"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos    setenv CONTENTS_FOLDER_PATH Snapost.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv6    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Snapost.dst    setenv DWARF_DSYM_FILE_NAME Snapost.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Snapost.app/Executables    setenv EXECUTABLE_FOLDER_PATH Snapost.app    setenv EXECUTABLE_NAME Snapost    setenv EXECUTABLE_PATH Snapost.app/Snapost    setenv FILE_LIST /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Snapost.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Snapost.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Snapost_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "'DEPLOYTYPE=production'"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Snapost.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/Snapost.dst/Users/kevin/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevin    setenv INSTALL_PATH /Users/kevin/Applications    setenv INSTALL_ROOT /tmp/Snapost.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Snapost.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-LinkMap-normal-armv6.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos\"  \"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone\" Resources"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal/armv6/Snapost.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH armv6    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Objects-normal    setenv OBJROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit -ObjC -lstdc++"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Snapost.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/PkgInfo    setenv PKGINFO_PATH Snapost.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Snapost.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Snapost.app/PrivateHeaders    setenv PRODUCT_NAME Snapost    setenv PRODUCT_SETTINGS_PATH /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Snapost    setenv PROJECT_DERIVED_FILE_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/DerivedSources    setenv PROJECT_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PROJECT_FILE_PATH /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Snapost.xcodeproj    setenv PROJECT_NAME Snapost    setenv PROJECT_TEMP_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH Snapost.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Snapost.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk    setenv SDK_NAME iphoneos3.1.3    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Snapost.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Snapost.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv SRCROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PRODUCT_TYPES 1    setenv SYMBOL_REPOSITORY_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/SymbolRepositories    setenv SYMROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME Snapost    setenv TARGET_BUILD_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos    setenv TARGET_NAME Snapost    setenv TARGET_TEMP_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build    setenv TEMP_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build    setenv TEMP_FILES_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build    setenv TEMP_FILE_DIR /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build    setenv TEMP_ROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build    setenv UID 504    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Snapost.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevin    setenv USER_APPS_DIR /Users/kevin/Applications    setenv USER_LIBRARY_DIR /Users/kevin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Snapost.app/version.plist    setenv VERSION_INFO_BUILDER kevin    setenv VERSION_INFO_FILE Snapost_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Snapost  PROJECT:Snapost-\""    setenv WEB_SRC_ROOT /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/tmp    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Snapost.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Script-B4EA72B50FBC96AA005AA7FB.sh0#
+
+CProcessInfoPlistFile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist Info.plist
+s288727713.370786
+e288727713.382431
+r1
+xProcessInfoPlistFile
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist288727713#288727713#0(0"0(0#0#67"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Info.plist4301200840#632"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/ResourceRules.plist -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/Info.plist0#
+
+CProcessPCH /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch.gch Snapost_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s288727716.408395
+e288727717.092426
+r1
+xProcessPCH
+x/var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch.gch
+xSnapost_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Snapost_Prefix.pch288727716#288727717#0(0"0(0#0#75"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Snapost_Prefix.pch4301200840#1863"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -DDEPLOYTYPE=production -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-generated-files.hmap -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-own-target-headers.hmap -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-all-target-headers.hmap -iquote /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost-project-headers.hmap -F/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/include -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources/armv6 -I/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/DerivedSources -c /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Snapost_Prefix.pch -o /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Snapost_Prefix-eyikfxxmkmflknesgwayyqvbmweg/Snapost_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/277648E7-A106-427D-A6D9-7E9EB52EA867.mobileprovision" /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/embedded.mobileprovision
+s288727719.775627
+e288727719.781988
+r1
+xProcessProductPackaging
+x/Users/kevin/Library/MobileDevice/Provisioning Profiles/277648E7-A106-427D-A6D9-7E9EB52EA867.mobileprovision
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/kevin/Library/MobileDevice/Provisioning Profiles/277648E7-A106-427D-A6D9-7E9EB52EA867.mobileprovision" build/Release-iphoneos/Snapost.app/embedded.mobileprovision288727719#288727719#0(0"0(0#0#116"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/embedded.mobileprovision4301200840#461"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kevin/Library/MobileDevice/Provisioning Profiles/277648E7-A106-427D-A6D9-7E9EB52EA867.mobileprovision" -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Entitlements.plist /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent
+s288727719.784787
+e288727719.786224
+r1
+xProcessProductPackaging
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Entitlements.plist
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent
+lSLF07#2@117"ProcessProductPackaging Resources/Entitlements.plist build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent288727719#288727719#0(0"0(0#0#121"/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent4301200840#467"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/Resources/Entitlements.plist -entitlements -format xml -o /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Snapost.build/Release-iphoneos/Snapost.build/Snapost.xcent0#
+
+CTouch /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+s288727719.782043
+e288727719.784605
+r1
+xTouch
+x/Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app
+lSLF07#2@97"Touch /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app288727719#288727719#0(0"0(0#0#0"4301200840#302"    cd /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevin/dev/appc/Snapost/0.9.x/Snapost/build/iphone/build/Release-iphoneos/Snapost.app0#
+
